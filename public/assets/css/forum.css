@@ -1,0 +1,347 @@
+/* Bukan Member Premium */
+
+.nav.top-menu .nav-link {
+    letter-spacing: -0.5px;
+    color: #5e5648;
+    text-decoration: none;
+    border-bottom: 4px solid #f8f2ee;
+    padding: 0;
+}
+
+.nav.top-menu .nav-link:hover {
+    color: #3a372f;
+    border-bottom: 4px solid #ef9c23;
+    text-decoration: cone;
+}
+
+.nav.top-menu .nav-link.active {
+    padding: 0;
+    border-radius: 0;
+    background-color: white;
+    color: #3a372f;
+    border-bottom: 4px solid #ef9c23;
+}
+
+.nav.top-menu .nav-link h3 {
+    font-size: 22px;
+}
+
+img.banner-promo {
+    width: 100%;
+    height: 215px;
+}
+
+.hastag .img-hastag img {
+    width: 360px;
+    height: 170px;
+}
+
+.hastag .text-hastag a {
+    font-size: 21px;
+    padding: 7px;
+    background: #ef9c23;
+    border-radius: 5px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.comment-forum {
+    margin-top: 10px;
+    background: #ffffff;
+    border-radius: 2px;
+    border-bottom: 2px solid #e9e9e9;
+}
+
+.comment-forum:hover {
+    background: #ffffff;
+    box-shadow: 0px 1px 10px 2px #ef9c2361;
+    border-radius: 15px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.profile-forum {
+    width: 50%;
+}
+
+.profile-forum h6 {
+    color: #3a372f;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.comment-forum .profile-forum p {
+    color: #c4c4c4;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -5px;
+}
+
+.comment-forum h5 {
+    color: #33312e;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+.comment-forum .text-tag {
+    color: #ef9c23;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.comment-qna .text-tag {
+    color: #ef9c23;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.comment-forum p {
+    color: #33312e;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.comment-forum .img-comment {
+    width: 200px;
+    height: 120px;
+    filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.16));
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.comment-forum .like-comment i {
+    color: #5e5648;
+    font-size: 20px;
+}
+
+.comment-forum .like-comment p {
+    color: #5e5648;
+    font-size: 16px;
+}
+
+.comment-forum .like-comment button.btn {
+    padding: 0;
+    margin-right: 5px;
+}
+/* End Bukan Member Premium */
+/* Buat Postingan */
+
+.form-pengisian {
+    left: 216px;
+    top: 123px;
+    background: #fff9f0;
+    box-shadow: 0px 4px 4px #ffe2c2;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+.form-pengisian h4 {
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    color: #3a372f;
+}
+
+.form-pengisian input,
+.form-pengisian select,
+.form-pengisian textarea {
+    border-radius: 12px;
+}
+
+.form-pengisian input,
+.form-pengisian select {
+    height: 56px;
+}
+
+.form-pengisian .tambah-gambar img {
+    width: 75px;
+    height: 75px;
+    border: 1px solid #ffba55;
+    border-radius: 10px;
+}
+
+.btn-posting {
+    width: 142px;
+    height: 45px;
+    color: white;
+    background: #ef9c23;
+    border: 1px solid #ef9c23;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+    border-radius: 13px;
+}
+
+.listmateri button.btn-filter {
+    background-color: transparent;
+    width: max-content;
+    border: none;
+}
+/* End Buat Postingan */
+/* Pagination */
+
+.page-link {
+    border: 1px solid transparent;
+    margin: auto 0;
+    margin-top: 30px;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+    border-radius: 13px;
+}
+
+.page-item:first-child .page-link {
+    margin-right: 10px;
+}
+
+.page-item:last-child .page-link {
+    margin-left: 10px;
+}
+
+.page-link.page-prev-next {
+    padding: 16px 32px;
+    color: white;
+    background: #ffba55;
+    border: 1px solid #ef9c23;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 0px rgba(239, 130, 18, 0.5);
+}
+
+.page-item.disabled .page-link {
+    background: #c4c4c4;
+    /* Ink/Gray */
+    border: 1px solid #c4c4c4;
+    color: white;
+    text-shadow: none;
+}
+
+.page-link.page-number {
+    width: 35px;
+    height: 50px;
+    color: #c4c4c4;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-link.page-number:hover {
+    color: #ef9c23;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid transparent;
+}
+
+.page-link.page-number.active {
+    color: #ef9c23;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid transparent;
+}
+/* end pagination */
+/* detail forum */
+
+.comment-qna#qna-detail {
+    background: #ffffff;
+    box-shadow: 0px 0px 0px;
+    border-radius: 0px;
+}
+
+.img-comment {
+    width: 65px;
+    height: 65px;
+}
+
+.form-send {
+    padding: 10px 20px;
+    background: #f8f2ee;
+}
+
+.form-send textarea {
+    padding: 10px;
+    width: 900px;
+    height: 120px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.btn-send-circle {
+    width: 60px;
+    height: 60px;
+    background: #ef9c23;
+}
+
+.comment-qna.detail {
+    background: #ffffff;
+    border-radius: 2px;
+    border-bottom: 2px solid transparent;
+}
+
+.detail-comment {
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.img-detail-comment {
+    width: 58px;
+    height: 58px;
+}
+
+.detail-comment .profile-qna p {
+    color: #c4c4c4;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -5px;
+}
+/* end detail dorum */
+
+.no-item img {
+    width: 298px;
+    height: 333px;
+}
+/* Icon */
+
+.fas.fa-heart.active {
+    color: #ff5f5f;
+}
+.fa-search {
+    color: gray;
+}
+#overlay {
+    background: #ffffff;
+    color: #666666;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 5000;
+    top: 0;
+    left: 0;
+    float: left;
+    text-align: center;
+    padding-top: 25%;
+    opacity: .80;
+  }
+  .spinner {
+      margin: 0 auto;
+      height: 64px;
+      width: 64px;
+      animation: rotate 0.8s infinite linear;
+      border: 5px solid #EF9C23;
+      border-right-color: transparent;
+      border-radius: 50%;
+  }
+  @keyframes rotate {
+      0% {
+          transform: rotate(0deg);
+      }
+      100% {
+          transform: rotate(360deg);
+      }
+  }

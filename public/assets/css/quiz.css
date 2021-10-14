@@ -1,0 +1,215 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+    --scrollbarBG: #ffffff;
+    --thumbBG: #C4C4C4;
+}
+
+.clr-main {
+    color: #3A372F;
+}
+
+.clr-secondary {
+    color: #33312E;
+}
+
+
+/* Main Intro */
+
+h2.text-title {
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 112%;
+    width: 500px;
+    color: #3C3A36;
+}
+
+.text-p {
+    width: 483px;
+    height: 96px;
+    font-size: 21px;
+    line-height: 32px;
+    /* or 152% */
+    letter-spacing: -0.5px;
+}
+
+.btn-start, .btn-start:hover {
+    font-family: Rubik;
+    display: flex;
+    justify-content: center;
+    width: 326px;
+    height: 56px;
+    padding: 16px 32px;
+    background: #EF9C23;
+    color: #ffffff;
+    border: 1px solid #EF9C23;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+    border-radius: 13px;
+    font-size: 18px;
+}
+
+
+/* End Main Intro */
+
+
+/* Jawaban Text */
+
+.bar-main {
+    background-color: #EF9C23;
+}
+
+.question-p {
+    font-size: 21px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.card-answer {
+    width: 457px;
+    height: auto;
+}
+
+.card-answer:hover:not([disabled]) {
+    background-color: #FFBA55;
+}
+
+.card-answer:active:not([disabled]) {
+    background-color: #FFBA55;
+}
+
+
+/* End Jawaban Text */
+
+
+/* Jawaban Gambar */
+
+.card-answer-img {
+    width: 456px;
+    height: 283px;
+}
+
+.img-answer {
+    width: 387px;
+    height: 243px;
+}
+
+
+/* End Jawaban Gambar */
+
+
+/* Jawaban Audio */
+
+
+/* End Jawaban Audio */
+
+
+/* Jawaban Teks Benar */
+
+.bg-true {
+    background-color: #ABEF8A;
+    padding: 32px;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 142px;
+}
+
+.text-true {
+    font-family: Poppins;
+    font-size: 41px;
+    line-height: 112%;
+}
+
+.btn-next {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    width: 326px;
+    height: 56px;
+    background: #EF9C23;
+    border: 1px solid #EF9C23;
+    box-sizing: border-box;
+    color: white;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+    border-radius: 13px;
+}
+
+
+/* End Jawaban Teks Benar */
+
+
+/* Jawaban Teks Salah */
+
+.bg-false {
+    background-color: #FFB5B5;
+    padding: 32px;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 142px;
+}
+
+
+/* End Jawaban Teks Salah */
+
+
+/* Hasil */
+
+.modal-content {
+    width: 583px;
+    height: 540px;
+    padding: 54px 120px;
+}
+
+.btn-try-again {
+    padding: 16px 32px;
+    width: 326px;
+    height: 56px;
+    background: #EF9C23;
+    border: 1px solid #EF9C23;
+    box-sizing: border-box;
+    color: white;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+    border-radius: 13px;
+}
+
+
+/* End Hasil */
+
+
+/* Footer */
+
+#footer {
+    background-color: #f3f2f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-intro {
+    position: absolute;
+    bottom: 0;
+}
+
+
+/* #footer .logo {} */
+
+#footer .logo .icon {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#footer .row h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #c4c4c4;
+}
+
+
+/* End Footer */

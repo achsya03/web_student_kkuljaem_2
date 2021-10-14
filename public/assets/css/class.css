@@ -1,0 +1,412 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+    --scrollbarBG: #ffffff;
+    --thumbBG: #c4c4c4;
+}
+
+a,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+}
+
+
+/*--------------------------------------------------------------
+    # Header
+    --------------------------------------------------------------*/
+
+#main {
+    margin-top: 130px;
+    height: 90%;
+    padding-bottom: 30px;
+}
+
+#header {
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 15px 0;
+}
+
+#header a {
+    color: #c4c4c4;
+}
+
+#header a:hover {
+    color: #ef9c23;
+    font-weight: bold;
+}
+
+#header .active {
+    color: #ef9c23;
+}
+
+#hero-dashboard {
+    transition: all 0.5s;
+    z-index: 997;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#hero-dashboard .banner {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#hero-dashboard .banner img {
+    height: 400px;
+    margin-top: 20px;
+}
+
+#hero-pelajaran .video .embed-responsive {
+    border: 50%;
+    border-radius: 15px;
+}
+
+.img-profile {
+    height: 25px;
+    width: 25px;
+}
+
+.notif-scroll {
+    height: 200px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+.notif-scroll::-webkit-scrollbar {
+    width: 11px;
+}
+
+.notif-scroll::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+.notif-scroll::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.29em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.35rem;
+}
+
+.badge-counter {
+    position: absolute;
+    transform: scale(0.8);
+    transform-origin: top right;
+    right: 0.25rem;
+    margin-top: -0.25rem;
+}
+
+.banner img {
+    border-radius: 25px 25px 25px 25px;
+    width: 100%;
+}
+
+.banner h1 {
+    font-weight: 700;
+    text-align: center;
+}
+
+.banner p {
+    text-align: center;
+}
+
+.btn-lainnya {
+    font-size: 20px;
+    color: #ffffff;
+    height: 60px;
+    background-color: #ef9c23;
+    border-radius: 15px 15px 15px 15px;
+    width: 300px;
+}
+
+.nav.top-menu .nav-link {
+    letter-spacing: -0.5px;
+    color: #5E5648;
+    text-decoration: none;
+    border-bottom: 4px solid #F8F2EE;
+    padding: 0;
+}
+
+
+/* .nav.top-menu .nav-link:hover {
+    color: #3A372F;
+    border-bottom: 4px solid #EF9C23;
+    text-decoration: none;
+} */
+
+.nav.top-menu .nav-link.active {
+    padding: 0;
+    border-radius: 0;
+    background-color: white;
+    color: #3A372F;
+    border-bottom: 4px solid #EF9C23;
+}
+
+#hero-kelas .tittle-kelas h3 {
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#hero-kelas .tittle-kelas h3 a:hover {
+    text-decoration: none;
+}
+
+#hero-kelas .tittle-kelas h3 a {
+    color: black;
+}
+
+.class-lainnya {
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.class-lainnya h3 {
+    font-weight: bold;
+    text-align: start;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.class-lainnya h4 {
+    text-align: start;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.kelas {
+    width: 550px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.kelas-lain {
+    width: 550px;
+    border: none;
+    padding: 10px;
+    margin: 0px 0px 20px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px #FFE2C2;
+    border-radius: 5px;
+}
+
+.icon-circle {
+    background-color: #ef9c23;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-about {
+    width: 300px;
+    height: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 2px 6px #d6d6d6;
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+
+.gambar-kelas {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    object-fit: cover;
+    border: 50%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px #FFE2C2;
+}
+
+.pilihan-kelas .deskripsi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gambar-detail-kelas {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    object-fit: cover;
+    border: 50%;
+    border-radius: 15px;
+}
+
+.gambar-banner {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    object-fit: cover;
+    max-width: 90%;
+    max-height: 500px;
+    border: 50%;
+    border-radius: 15px;
+}
+
+.nama-kelas {
+    object-fit: cover;
+}
+
+.nama-guru {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    object-fit: cover;
+}
+
+.jumlah-materi {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    object-fit: fill;
+    color: #c4c4c4;
+}
+
+.btn-langganan {
+    width: 300px;
+    height: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: #ef9c23;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 2px 6px #d6d6d6;
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+
+.btn-word {
+    width: 100%;
+    height: 80px;
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 2px 6px #ef9c23;
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+
+.word-korea p {
+    text-align: left;
+    padding-left: 20px;
+    margin: 5px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.word-korea h1 {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.list-button-video {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.slider {
+    width: 100%;
+}
+
+.slick-dots {
+    bottom: -40px;
+}
+
+.slick-dots li button:before,
+li.slick-active button:before {
+    color: #000000;
+}
+
+.slick-dots li button:before {
+    background-color: transparent;
+    border-radius: 20%;
+    display: inline-block;
+    height: 8px;
+    width: 30px;
+}
+
+.slick-dots li.slick-active button:before {
+    background-color: #ef9c23;
+    top: 25%;
+    color: transparent;
+}
+
+#footer {
+    background-color: #f3f2f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#footer .logo {
+    padding-left: 200px;
+}
+
+#footer .logo .icon {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#footer .inner .d-flex h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #c4c4c4;
+}
+
+#button-sound1 {
+    background-image: url("/Assets/img/IconPlay.png");
+    background-size: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.fa-check-circle {
+    color: #00A8DD;
+}
+.fa-search {
+    color: gray;
+}

@@ -1,0 +1,533 @@
+body {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    color: #444444;
+    --scrollbarBG: #ffffff;
+    --thumbBG: #c4c4c4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+}
+
+/*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+
+#main {
+    height: 90%;
+    padding-bottom: 30px;
+    margin-top: 130px;
+}
+
+#header {
+    transition: all 0.5s;
+    padding: 15px 0;
+}
+
+#header a {
+    color: #c4c4c4;
+}
+
+#header a:hover {
+    color: #ef9c23;
+    font-weight: bold;
+}
+
+#header .active {
+    color: #ef9c23;
+}
+
+#hero-dashboard {
+    transition: all 0.5s;
+    z-index: 997;
+    margin-bottom: 2%;
+    position: relative;
+}
+
+#hero-dashboard .banner {
+    display: block;
+}
+
+#hero-pelajaran .video .embed-responsive {
+    border: 50%;
+    border-radius: 15px;
+}
+
+#hero-kelas .tittle-kelas h3 a {
+    color: black;
+    font-weight: bold;
+}
+
+#hero-kelas .tittle-kelas h3 a {
+    text-decoration: none;
+}
+
+.kelas {
+    width: 560px;
+    border: none;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.img-profile {
+    height: 25px;
+    width: 25px;
+}
+
+.notif-scroll {
+    height: 200px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+.notif-scroll::-webkit-scrollbar {
+    width: 11px;
+}
+
+.notif-scroll::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+.notif-scroll::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+}
+
+.hangeul-scroll {
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+.hangeul-scroll::-webkit-scrollbar {
+    width: 11px;
+}
+
+.hangeul-scroll::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+.hangeul-scroll::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.29em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.35rem;
+}
+
+.badge-counter {
+    position: absolute;
+    transform: scale(0.8);
+    transform-origin: top right;
+    right: 0.25rem;
+    margin-top: -0.25rem;
+}
+
+.btn-login {
+    background-color: #ef9c23;
+    border-color: #ef9c23;
+    border: 50%;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.btn-login h7 {
+    color: #fff;
+}
+
+.banner img {
+    border-radius: 20px;
+    width: 100%;
+    height: 443px;
+}
+
+.banner h1 {
+    font-weight: 700;
+    text-align: center;
+}
+
+.banner p {
+    text-align: center;
+}
+
+.icon-circle {
+    background-color: #ef9c23;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-gabung {
+    font-size: 20px;
+    background-color: #ef9c23;
+    border-color: #ef9c23;
+    top: -30px;
+    border: 50%;
+    border-radius: 15px;
+    height: 55px;
+    color: #fff;
+    width: 300px;
+    margin: 20px 250px 20px 250px;
+}
+
+.btn-word {
+    width: 100%;
+    height: 80px;
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 2px 6px #c4c4c4;
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+
+.btn-word:hover {
+    width: 100%;
+    height: 80px;
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 2px 6px #ef9c23;
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+
+.gambar-kelas {
+    overflow: hidden;
+    border: 50%;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0px 4px 4px #ffe2c2;
+}
+
+.pilihan-kelas .deskripsi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nama-kelas {
+    object-fit: cover;
+}
+
+.nama-guru {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    object-fit: cover;
+}
+
+.jumlah-materi {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    object-fit: fill;
+    color: #c4c4c4;
+}
+
+.modal-title {
+    background-color: #ef9c23;
+}
+
+.modal-body h5 {
+    padding-top: 20px;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+.modal-body p {
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.profil-comentar {
+    width: 100%;
+}
+
+.btn-modal-word {
+    width: 500px;
+    margin: 50px 100px 50px 110px;
+    height: 100px;
+    background-color: #ef9c23;
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 2px 6px #ef9c23;
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+
+.btn-lainnya {
+    color: #ffffff;
+    width: 300px;
+    background: #ffba55;
+    border: 1px solid #ef9c23;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+    border-radius: 13px;
+    color: #fff9f0;
+    text-shadow: 2px 2px 0px rgba(239, 130, 18, 0.5);
+    font-weight:bold;
+}
+
+.word-korea p {
+    text-align: left;
+    padding-left: 20px;
+    margin: 5px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.word-korea h1 {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.list-button-video {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.slider {
+    width: 100%;
+}
+
+.topik-tag {
+    margin-right: 10px;
+    width: 360px;
+    height: 150px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid #ef9c23;
+}
+
+.topik-tag h3 {
+    padding: 5px;
+    margin-top: 80px;
+    margin-left: 10px;
+    width: 160px;
+    background-color: #ef9c23;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.slick-dots {
+    bottom: -40px;
+}
+
+.slick-dots li button:before,
+li.slick-active button:before {
+    color: #000000;
+}
+
+.slick-dots li button:before {
+    background-color: transparent;
+    border-radius: 20%;
+    display: inline-block;
+    height: 8px;
+    width: 30px;
+}
+
+.slick-dots li.slick-active button:before {
+    background-color: #ef9c23;
+    top: 25%;
+    color: transparent;
+}
+
+#button-sound {
+    background-size: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.komentar {
+    margin-top: 10px;
+    border: 50%;
+    background-color: #ffffff;
+    border-radius: 2px;
+    border-bottom: 2px solid #e9e9e9;
+}
+
+.komentar:hover {
+    border: 50%;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px 2px #ef9c2361;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.komentar .profil-comentar {
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.komentar .profil-comentar .row .col-lg-1 img {
+    margin-left: 10px;
+}
+
+.komentar .profil-comentar .row .col-lg-10 h5 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.komentar .profil-comentar .row .col-lg-10 h6 {
+    margin-top: -5px;
+    margin-left: 0;
+    color: #c4c4c4;
+    font-weight: 500;
+}
+
+.komentar h4 {
+    margin-left: 40px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.komentar h6 {
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.komentar h6 a {
+    color: #ef9c23;
+}
+
+.komentar p {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.komentar .pict-comentar {
+    margin-left: 40px;
+}
+
+.komentar .like-comment {
+    margin-left: 40px;
+}
+
+.komentar .like-comment .row i {
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.komentar .like-comment .row h7 {
+    margin-left: 10px;
+    padding-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.banner-market {
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+}
+
+.pict-kosong {
+    width: 100%;
+    height: 300px;
+    margin: 20px;
+}
+
+.pict-kosong {
+    display: block;
+    margin: auto;
+}
+
+.fa-check-circle {
+    color: #00a8dd;
+}
+
+.fa-search {
+    color: gray;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+
+#button-sound1 {
+    background-image: url("/Assets/img/IconPlay.png");
+    background-size: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+#footer {
+    background-color: #f3f2f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#footer .logo {
+    padding-left: 200px;
+}
+
+#footer .logo .icon {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#footer .inner .d-flex h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #c4c4c4;
+}

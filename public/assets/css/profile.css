@@ -1,0 +1,493 @@
+/* Home Profile */
+
+.left .embed-responsive {
+    height: 425px;
+}
+
+.detail-video .menu-detail-video a {
+    padding: 12px 20px;
+    left: 0px;
+    top: 0px;
+    /* Ink/White */
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.detail-video .menu-detail-video a:hover {
+    background: #fff9f0;
+    box-shadow: 0px 4px 4px #ffe2c2;
+    border-radius: 10px;
+}
+
+.detail-video {
+    height: 510px;
+}
+
+.menu-detail-video {
+    height: 350px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+.menu-detail-video .list-video .play-pause {
+    height: 40px;
+    width: 40px;
+    background: #ef9c23;
+    color: white;
+    border: none;
+}
+
+.menu-detail-video::-webkit-scrollbar {
+    width: 11px;
+}
+
+.menu-detail-video::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+.menu-detail-video::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+}
+
+.card-kelas {
+    width: 100%;
+    height: 176px;
+    display: flex;
+    align-items: center;
+}
+
+.card-kelas img {
+    height: 156px;
+    width: 156px;
+}
+
+.card-kelas .nama-kelas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-kelas .nama-kelas h3 {
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: -0.5px;
+    color: #3a372f;
+}
+
+.card-kelas .nama-kelas h6 {
+    font-size: 16px;
+    color: #5e5648;
+}
+
+.card-kelas .nama-kelas .img-bluecheck {
+    width: 18px;
+    height: 18px;
+    filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.16));
+}
+
+.card-kelas .nama-kelas p {
+    font-size: 16px;
+    color: #c4c4c4;
+}
+
+.btn-lainnya {
+    color: white;
+    padding: 16px 32px;
+    margin-top: 30px;
+    width: 326px;
+    height: 56px;
+    background: #ef9c23;
+    border: 1px solid #ef9c23;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+    border-radius: 13px;
+}
+
+.hastag .img-hastag img {
+    width: 360px;
+    height: 170px;
+}
+
+.hastag .text-hastag a {
+    font-size: 21px;
+    padding: 7px;
+    background: #ef9c23;
+    border-radius: 5px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.comment-forum {
+    background: #ffffff;
+    border-radius: 2px;
+    border-bottom: 2px solid #c4c4c4;
+}
+
+.comment-forum:hover {
+    background: #ffffff;
+    box-shadow: 0px 4px 4px #ffe2c2;
+    border-radius: 5px;
+    border-bottom: 2px solid transparent;
+}
+
+.profile-forum {
+    width: 50%;
+}
+
+.profile-forum h6 {
+    color: #3a372f;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.comment-forum .profile-forum p {
+    color: #c4c4c4;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -5px;
+}
+
+.comment-forum h5 {
+    color: #33312e;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+.comment-forum .text-tag {
+    color: #ef9c23;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.comment-forum p {
+    color: #33312e;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.comment-forum .img-comment {
+    width: 120px;
+    height: 120px;
+    filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.16));
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.comment-forum .like-comment i {
+    color: #5e5648;
+    font-size: 20px;
+}
+
+.comment-forum .like-comment p {
+    color: #5e5648;
+    font-size: 16px;
+}
+
+.comment-forum .like-comment button.btn {
+    padding: 0;
+    margin-right: 5px;
+}
+
+/* End Home Profile */
+
+/* Akun Awal */
+
+.nav .nav-link.top-menu {
+    font-size: 26px;
+    letter-spacing: -0.5px;
+    color: #5e5648;
+    text-decoration: none;
+    border-bottom: 4px solid #f8f2ee;
+    padding: 0;
+}
+
+.nav .nav-link.top-menu:hover {
+    color: #3a372f;
+    border-bottom: 4px solid #ef9c23;
+    text-decoration: cone;
+}
+
+.nav .nav-link.top-menu.active {
+    padding: 0;
+    border-radius: 0;
+    background-color: white;
+    color: #3a372f;
+    border-bottom: 4px solid #ef9c23;
+}
+
+/* Bagian Akun Pengguna */
+
+.profile-akun img.avatar {
+    width: 100px;
+    height: 100px;
+}
+
+.alert-profile {
+    background: #ffb5b5;
+    color: #993e3e;
+    border-radius: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.alert-profile-premium {
+    background: #abef8a;
+    color: #4a6f3a;
+    border-radius: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.pengaturan-akun {
+    border-top: 1px solid #f8f2ee;
+    padding-top: 40px;
+}
+
+.pengaturan-akun .title {
+    font-size: 18px;
+    letter-spacing: -0.1px;
+    color: #9e9789;
+}
+
+.pengaturan-akun .left {
+    padding: 0 25px 0 60px;
+    border-right: 1px solid #f8f2ee;
+}
+
+.pengaturan-akun .left a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 32px 16px 42px;
+    border: 1px solid #f8f2ee;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+    border-radius: 13px;
+    margin-bottom: 16px;
+}
+
+.pengaturan-akun .left a:hover,
+.pengaturan-akun .left a.active {
+    background: #ffba55;
+    border: 1px solid #ef9c23;
+    box-shadow: 0px 4px 4px #ffe2c2;
+    color: white;
+    border-radius: 13px;
+    text-shadow: 2px 2px 0px rgba(239, 130, 18, 0.5);
+}
+
+.pengaturan-akun .left-keluar a {
+    color: #993e3e;
+    display: flex;
+    justify-content: center;
+    width: 284px;
+    padding: 16px 32px;
+    border: 1px solid #f8f2ee;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: -82px;
+}
+
+.pengaturan-akun .left-keluar a:hover,
+.pengaturan-akun .left-keluar a.active {
+    background: #ffba55;
+    border: 1px solid #ef9c23;
+    box-shadow: 0px 4px 4px #ffe2c2;
+    color: white;
+    border-radius: 13px;
+    text-shadow: 2px 2px 0px rgba(239, 130, 18, 0.5);
+}
+
+.pengaturan-akun .right {
+    padding: 0 60px 0 25px;
+}
+
+.pengaturan-akun .right .banner-promo {
+    width: 100%;
+    height: 122px;
+}
+
+.pengaturan-akun .right .form-control:not(textarea) {
+    padding: 16px;
+    height: 56px;
+    border: 1px solid #c4c4c4;
+    border-radius: 12px;
+}
+
+.pengaturan-akun .right textarea {
+    height: 112px;
+    border: 1px solid #c4c4c4;
+    border-radius: 12px;
+    resize: none;
+}
+
+.pengaturan-akun .right .btn-save {
+    color: white;
+    padding: 16px 32px;
+    margin-top: 30px;
+    width: 326px;
+    height: 56px;
+    background: #ef9c23;
+    border: 1px solid #ef9c23;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+    border-radius: 13px;
+}
+
+.pengaturan-akun #list-langganan .card {
+    border: 1px solid #f8f2ee;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+
+.pengaturan-akun #list-langganan .card .card-header {
+    height: 88px;
+    background-color: white;
+}
+
+.pengaturan-akun #list-langganan .card .card-header:active {
+    background: #fff9f0;
+    border: 1px solid #ffba55;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.pengaturan-akun #list-langganan .btn {
+    color: black;
+    text-decoration: none;
+}
+
+.pengaturan-akun #list-langganan .btn:focus {
+    box-shadow: none;
+}
+
+.pengaturan-akun #list-langganan .status {
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #6f4c20;
+}
+
+.pengaturan-akun #list-langganan .status-warning {
+    background: #ffba55;
+}
+
+.pengaturan-akun #list-langganan .status-success {
+    background: #abef8a;
+}
+
+.pengaturan-akun #list-langganan .status-danger {
+    background: #ffb5b5;
+}
+.pengaturan-akun-keluar .left-keluar {
+    color: #993e3e;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 58.2422px;
+    padding: 16px 32px;
+    border: 1px solid #f8f2ee;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    margin-left: 75px;
+    margin-top: -82px;
+    align-items: center;
+}
+.pengaturan-akun-keluar .left-keluar .list-group button.list-group-item-action {
+    background: none;
+    border: none;
+}
+
+#list-langganan .title {
+    font-size: 21px;
+    letter-spacing: -0.5px;
+    color: #000000;
+}
+
+#list-langganan .accordion .card-body .detail-left p.detail-label-history {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#list-langganan .accordion .card-body .detail-right p.detail-label-history {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Bagian Lain-lain */
+
+#lain-lain .banner-promo {
+    width: 100%;
+    height: 220px;
+    filter: drop-shadow(0px 4px 4px #ffe2c2);
+    border-radius: 10px;
+}
+
+.tab-pane .img-about {
+    width: 100%;
+    height: 385px;
+}
+
+.tab-pane .tab-pane .title-main {
+    font-size: 21px;
+    letter-spacing: -0.5px;
+    color: #000000;
+}
+
+.tab-pane .title {
+    font-size: 21px;
+    letter-spacing: -0.5px;
+    color: #3a372f;
+}
+
+.tab-pane .title-2 {
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    color: #3a372f;
+}
+
+.tab-pane .paragraph p {
+    font-size: 16px;
+    color: #3a372f;
+}
+
+.tab-pane .paragraph .testimoni {
+    padding: 20px;
+    background: #ffffff;
+    border: 2px solid #ef9c23;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.tab-pane .paragraph .testimoni .p-testimoni {
+    font-size: 18px;
+    color: #3a372f;
+    letter-spacing: -0.1px;
+}
+
+.tab-pane .paragraph .testimoni .line-testimoni {
+    border-bottom: 3px solid #ef9c23;
+    border-top: none;
+    width: 74px;
+    padding: 0;
+}
+
+.tab-pane .paragraph .testimoni .detail-user {
+    font-size: 16px;
+    color: #5e5648;
+}
+
+/* End Bagian Lain-lain */
+
+/* End Akun Awal */
+
+.fa-search {
+    color: gray;
+}

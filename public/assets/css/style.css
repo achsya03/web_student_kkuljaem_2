@@ -1,0 +1,230 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #444444;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#header {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+}
+
+#header a {
+  color: #c4c4c4;
+}
+#header a:hover {
+  color: #ef9c23;
+  font-weight: bold;
+}
+
+.navbar-menu .navbar-nav .nav-link {
+  display: block;
+  position: relative;
+  color: #fff;
+  transition: 0.3s;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero-login {
+  transition: all 0.5s;
+  height: 100%;
+  margin-bottom: 110px;
+  position: relative;
+}
+
+#hero-login .banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#hero-login .title-bar {
+  padding-top: 12%;
+  padding-bottom: 2%;
+}
+
+#hero-login .title-bar h2 {
+  display: block;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.log-in {
+  padding-top: 5%;
+}
+
+.btn-login {
+  font-size: 20px;
+  background-color: #ef9c23;
+  border-color: #ef9c23;
+  top: -30px;
+  border: 50%;
+  border-radius: 15px;
+  height: 55px;
+  color: #fff;
+  width: 100%;
+}
+
+
+.log-in h5 {
+  text-align: center;
+  margin-top: 5%;
+}
+.log-in h5 a {
+  font-size: 20px;
+  color: #ef9c23;
+  text-decoration: none;
+}
+.log-in h6 {
+  text-align: center;
+  margin-top: 5%;
+}
+.log-in h6 a {
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+.log-in h6 a span {
+  font-size: 20px;
+  color: #ef9c23;
+}
+
+.form-group .form-control {
+  height: 50px;
+  border: 50%;
+  border-radius: 15px;
+}
+.form-group #inputEmail {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin: 0;
+}
+.form-check {
+  margin-right: 100px;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.form-check .form-check-label span a {
+  color: #ef9c23;
+}
+#mybutton2{
+  position: relative;
+  left: 90%;
+  top: -35px;
+  cursor: pointer;
+}
+#mybutton {
+  position: relative;
+  left: 90%;
+  top: -35px;
+  cursor: pointer;
+}
+
+.notifikasi-login {
+  margin-bottom: 20px;
+  background-color: #ffb5b5;
+  border: 50%;
+  border-radius: 15px;
+  height: auto;
+  color: #fff;
+  width: 100%;
+}
+
+.notifikasi-login h2 {
+  padding: 18px;
+  font-size: 18px;
+  color: #993e3e;
+  width: 100%;
+}
+
+.slider {
+  width: 40rem;
+}
+
+.banner img {
+  padding: 10%;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.banner h1 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.banner p {
+  text-align: center;
+}
+
+.slick-dots {
+  bottom: -40px;
+}
+.slick-dots li button:before,
+li.slick-active button:before {
+  color: #000000;
+}
+
+.slick-dots li button:before {
+  background-color: transparent;
+  border-radius: 20%;
+  display: inline-block;
+  height: 8px;
+  width: 30px;
+}
+
+.slick-dots li.slick-active button:before {
+  background-color: #ef9c23;
+  top: 25%;
+  color: transparent;
+}
+
+
+#footer {
+  background-color: #f3f2f2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#footer .logo {
+  padding-left: 200px;
+}
+
+#footer .logo .icon {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#footer .inner .d-flex h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #c4c4c4;
+}
+.fa-search {
+  color: gray;
+}
